@@ -1,0 +1,9 @@
+function min(a, b) {
+if (a<b) {return a;}
+else {return b;}
+}
+
+let a = +prompt ('Введите число А','а');
+let b = +prompt ('Введите число Б','б');
+
+alert (min(a, b));
